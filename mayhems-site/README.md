@@ -1,1 +1,1 @@
-# An author site built for Steven "Mayhem" Mills
+# An author site built for Stephen "Mayhem" Mills
