@@ -1,11 +1,11 @@
-import Header from './Components/Header';
-import Author from './Components/Author';
-import BookOne from './Components/BookOne';
-import BookTwo from './Components/BookTwo';
-import BookThree from './Components/BookThree';
-import BookFour from './Components/BookFour';
-import ContactMe from './Components/ContactMe';
-import './App.css';
+import Header from "./Components/Header";
+import Author from "./Components/Author";
+import BookOne from "./Components/BookOne";
+import BookTwo from "./Components/BookTwo";
+import BookThree from "./Components/BookThree";
+import BookFour from "./Components/BookFour";
+import ContactMe from "./Components/ContactMe";
+import "./App.css";
 
 function App() {
   return (

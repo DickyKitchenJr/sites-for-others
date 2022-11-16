@@ -12,11 +12,7 @@ const BookThree = () => (
     strength={500}
   >
     <figure>
-      <img
-        className="bookcover"
-        src={Book3}
-        alt="Nava book cover"
-      />
+      <img className="bookcover" src={Book3} alt="Nava book cover" />
       <figcaption className="bookreview">
         "A stunning conclusion to the series!"
       </figcaption>

@@ -1,7 +1,7 @@
 import { Parallax } from "react-parallax";
 import HeadShot from "../Images/StephenHeadShot.jpg";
-import BooksBackground from "../Images/booksbackground.jpg"
-import './Author.css';
+import BooksBackground from "../Images/booksbackground.jpg";
+import "./Author.css";
 
 const Author = () => (
   <Parallax
@@ -28,5 +28,4 @@ const Author = () => (
   </Parallax>
 );
 
-export default Author
-
+export default Author;
