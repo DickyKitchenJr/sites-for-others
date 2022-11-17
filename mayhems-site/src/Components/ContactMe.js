@@ -10,29 +10,34 @@ const ContactMe = () => (
     bgImageAlt="author and spouse"
     strength={500}
   >
-    <p className="contact">
-      If you'd like to purchase a signed copy of any of Stephen Mill's books,
-      you can request them here:
-    </p>
-    <p className="contact">
-      <a
-        href="https://www.instagram.com/Stephen.mills.writes/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Instagram
-      </a>
-    </p>
-    <p className="contact">Or Here</p>
-    <p className="contact">
-      <a
-        href="https://www.facebook.com/pursuitofmayhem"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Facebook
-      </a>
-    </p>
+    <div className="requestsignedcopy">
+      <h4 className="formh4">Purchase a signed copy!</h4>
+      <form action="https://formsubmit.co/mills360@gmail.com" method="POST">
+        <input
+          className="requestinput"
+          type="text"
+          name="name"
+          placeholder="Full Name"
+          required
+        />
+        <input
+          className="requestinput"
+          type="email"
+          name="email"
+          placeholder="Email"
+          required
+        />
+        <input
+          className="requestinput"
+          type="book"
+          name="message"
+          placeholder="Book(s) Requested"
+          required
+        />
+        <input className="honey" type="text" name="_honey" />
+        <button type="submit">Send</button>
+      </form>
+    </div>
   </Parallax>
 );
 

@@ -31,10 +31,27 @@
   padding: 2rem;
 }
 
+.boldme{
+  color: white;
+  font-weight: bold;
+}
+
 .bookblurb span {
   color: red;
 }
 
 .bookblurb span a {
   color: crimson;
+}
+
+.authorblurb{
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: center;
+}
+
+.authorblurb a{
+  color: crimson;
+  font-weight: 800;
 }
