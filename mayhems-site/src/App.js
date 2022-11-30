@@ -15,7 +15,7 @@ function App() {
       <h2 className="spacer">BOOKS</h2>
       {/* Book One */}
       <BookOne />
-      <div className="booktext">
+      {/* <div className="booktext">
         <h3 className="booktitle">
           The <span>Devil's</span> Cohort
         </h3>
@@ -60,7 +60,7 @@ function App() {
             </a>
           </span>
         </p>
-      </div>
+      </div> */}
       {/* Book Two */}
       <BookTwo />
       <div className="booktext">
