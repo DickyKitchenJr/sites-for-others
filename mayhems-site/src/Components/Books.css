@@ -22,9 +22,12 @@
 }
 
 /* changes made for client demonstration purposes; not permanent yet */
-.books{
-  background-image: linear-gradient(to bottom, transparent, black);
-  border-bottom: solid 3px white;
+.books1{
+  background-image: linear-gradient(to bottom, transparent, black 70%);
+  border-bottom: solid 7px white;
+  text-align: center;
+  color: white;
+  padding: 5rem;
 }
 
 .book-content{
@@ -34,6 +37,26 @@
 
 .book1p{
   width: fit-content;
+  font-size: 200%;
+  font-weight: bold;
+  color: black;
+  padding-top: 10%;
+}
+
+.bookcover1{
+  max-width: 65%;
+  margin-right: -10.5rem;
+}
+
+.booktitle1{
+  font-weight: bold;
+  font-size: 3.5vw;
+  margin-top: -5rem;
+}
+
+.booktitle1 span{
+  color: red;
+
 }
 
 .buybutton{

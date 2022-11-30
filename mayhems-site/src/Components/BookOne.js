@@ -6,7 +6,7 @@ import "./Books.css";
 
 const BookOne = () => (
   <Parallax
-    contentClassName="books"
+    contentClassName="books1"
     blur={1}
     bgImage={Mist}
     bgImageAlt="man shrouded in mist"
@@ -26,17 +26,17 @@ const BookOne = () => (
     </figure> */}
     <div className="book-content">
       <p className="book1p">
-        "The Devil’s Cohort reads like a<br/> George R.R. Martin novel and<br/> hooked me
+        "The Devil’s Cohort reads like a George R.R. Martin novel and hooked me
         right from the start"
       </p>
       <img
-        className="bookcover"
+        className="bookcover1"
         src={Book1}
         alt="The Devils Cohort book cover"
       />
       </div>
-      <h3 className="booktitle">
-        The Devil's<span>Cohort</span>
+      <h3 className="booktitle1">
+        The Devil's <span>Cohort</span>
       </h3>
       <p className="bookblurb">
         <span className="boldme">
