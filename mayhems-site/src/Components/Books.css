@@ -22,9 +22,10 @@
 }
 
 /* changes made for client demonstration purposes; not permanent yet */
+
+/* Book1 changes */
 .books1{
   background-image: linear-gradient(to bottom, transparent, black 70%);
-  border-bottom: solid 7px white;
   text-align: center;
   color: white;
   padding: 5rem;
@@ -235,5 +236,150 @@
 @media only screen and (max-width: 300px) {
   .mist{
     left: 215% !important;
+  }
+}
+
+/* Book 2 changes */
+.booktext2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: black;
+  border-bottom: solid 15px white;
+  padding-bottom: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.book2content{
+  padding-top: 5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.on2p{
+  color: whitesmoke;
+}
+
+@media only screen and (max-width: 400px) {
+  .on2p{
+    font-size: 90%;
+  }
+}
+
+.on2cover{
+  max-width: 60%;
+  margin-right: -5.5rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .on2cover{
+    margin-right: -7.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .on2cover{
+    max-width: 80%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .on2cover{
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .on2cover{
+    max-width: 110%;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .bookcover1{
+    margin-right: -5.5rem;
+    margin-left: -4rem;
+  }
+}
+
+.for2{
+  margin-top: 0;
+  text-align: center;
+}
+
+.bookreview2{
+  width: fit-content;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 10%;
+  padding-left: 15%;
+}
+
+@media only screen and (max-width: 900px) {
+  .bookreview2{
+    padding-top: 5%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .bookreview2{
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .bookreview2{
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .bookreview2{
+    padding-left: 10%;
+    padding-bottom: 1.5rem;
+  }
+}
+
+.books2{
+  color: whitesmoke;
+  background-image: linear-gradient(to bottom, transparent 90%, black);
+  text-align: center;
+}
+
+.bookblurb2{
+  text-align: center;
+}
+
+.bookblurb2 span{
+  color: red;
+}
+
+.button2{
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buybutton2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 150%;
+  padding: 1.75rem;
+  color: whitesmoke;
+  background-color: transparent;
+  border: 4px solid red;
+  border-radius: 1rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .buybutton2{
+    font-size: 125%;
+    padding: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .buybutton2{
+    font-size: 100%;
   }
 }

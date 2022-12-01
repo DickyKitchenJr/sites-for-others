@@ -7,10 +7,10 @@ import "./Books.css";
 const BookOne = () => (
   <Parallax
     contentClassName="books1"
-    blur={1}
+    blur={0}
     bgImage={Mist}
     bgImageAlt="man shrouded in mist"
-    strength={500}
+    strength={600}
     bgClassName = 'mist'
   >
     {/* <figure>

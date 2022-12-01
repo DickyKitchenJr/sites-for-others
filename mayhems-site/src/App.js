@@ -63,7 +63,7 @@ function App() {
       </div> */}
       {/* Book Two */}
       <BookTwo />
-      <div className="booktext">
+      {/* <div className="booktext">
         <h3 className="booktitle">
           A Wanderer <span>Among</span> The Dead
         </h3>
@@ -110,7 +110,7 @@ function App() {
             </a>
           </span>
         </p>
-      </div>
+      </div> */}
       {/* Book Three */}
       <BookThree />
       <div className="booktext">
