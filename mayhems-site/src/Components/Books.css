@@ -217,25 +217,25 @@
 
 @media only screen and (max-width: 450px) {
   .mist{
-    left: 140% !important;
+    left: 160% !important;
   }
 }
 
 @media only screen and (max-width: 400px) {
   .mist{
-    left: 160% !important;
+    left: 190% !important;
   }
 }
 
 @media only screen and (max-width: 350px) {
   .mist{
-    left: 190% !important;
+    left: 210% !important;
   }
 }
 
 @media only screen and (max-width: 300px) {
   .mist{
-    left: 215% !important;
+    left: 240% !important;
   }
 }
 
@@ -254,6 +254,7 @@
   padding-top: 5rem;
   padding-left: 3rem;
   padding-right: 3rem;
+  padding-bottom: 1rem;
 }
 
 .on2p{
@@ -263,6 +264,7 @@
 @media only screen and (max-width: 400px) {
   .on2p{
     font-size: 90%;
+    padding-top: 5%;
   }
 }
 
