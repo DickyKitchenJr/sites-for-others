@@ -28,6 +28,16 @@
   text-align: center;
   color: white;
   padding: 5rem;
+  border-bottom: 15px solid whitesmoke;
+}
+
+@media only screen and (max-width: 500px) {
+  .books1{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 .book-content{
@@ -43,15 +53,96 @@
   padding-top: 10%;
 }
 
+@media only screen and (max-width: 900px) {
+  .book1p{
+    font-size: 170%;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .book1p{
+    font-size: 120%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .book1p{
+    font-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .book1p{
+    margin-left: -1.5rem;
+  }
+}
+
 .bookcover1{
   max-width: 65%;
   margin-right: -10.5rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .bookcover1{
+    margin-right: -7.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .bookcover1{
+    max-width: 80%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .bookcover1{
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .bookcover1{
+    max-width: 110%;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .bookcover1{
+    margin-right: -5.5rem;
+    margin-left: -4rem;
+  }
+}
+
 .booktitle1{
   font-weight: bold;
-  font-size: 3.5vw;
+  font-size: 2rem;
   margin-top: -5rem;
+  padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .booktitle1{
+    margin-top: -4rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .booktitle1{
+    margin-top: -2rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .booktitle1{
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .booktitle1{
+    font-size: 1.2rem;
+  }
 }
 
 .booktitle1 span{
@@ -68,6 +159,24 @@
   background-color: transparent;
   border: 4px solid red;
   border-radius: 1rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .buybutton{
+    font-size: 125%;
+    padding: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .buybutton{
+    font-size: 100%;
+  }
+}
+
+.boldme1{
+  color: red;
+  font-weight: bold;
 }
 
 .mist{

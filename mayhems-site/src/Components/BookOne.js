@@ -38,8 +38,8 @@ const BookOne = () => (
       <h3 className="booktitle1">
         The Devil's <span>Cohort</span>
       </h3>
-      <p className="bookblurb">
-        <span className="boldme">
+      <p className="bookblurb1">
+        <span className="boldme1">
           Infected with a God-like power and stalked by undead hordes, a child
           is destined to defeat an otherworldly evil – yet malevolent forces aim
           to harness her power and unleash an ancient menace from its hellish
@@ -62,7 +62,7 @@ const BookOne = () => (
         be unleashed?
         <br />
         <br />
-        <span className="boldme">
+        <span className="boldme1">
           Get The Devil’s Cohort and immerse yourself in the timeless struggle
           of good versus evil with a modern and riveting twist.
         </span>
