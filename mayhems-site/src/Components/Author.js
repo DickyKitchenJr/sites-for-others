@@ -1,6 +1,6 @@
 import { Parallax } from "react-parallax";
-import HeadShot from "../Images/StephenHeadShot.jpg";
-import BooksBackground from "../Images/booksbackground.jpg";
+import HeadShot from "../Images/StephenHeadShot.webp";
+import BooksBackground from "../Images/booksbackground.webp";
 import "./Author.css";
 
 const Author = () => (

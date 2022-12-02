@@ -1,5 +1,5 @@
 import { Parallax } from "react-parallax";
-import Family from "../Images/EdinburghCastle.png";
+import Family from "../Images/EdinburghCastle.webp";
 import "./ContactMe.css";
 
 const ContactMe = () => (

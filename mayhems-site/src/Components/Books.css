@@ -21,8 +21,6 @@
   background-color: hsla(0, 0%, 0%, 0.35);
 }
 
-/* changes made for client demonstration purposes; not permanent yet */
-
 /* Book1 changes */
 .books1{
   background-image: linear-gradient(to bottom, transparent, black 70%);

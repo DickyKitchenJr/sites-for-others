@@ -6,16 +6,12 @@
   color: white;
   background-color: black;
   padding: 2rem;
-  border-top: solid 3px white;
-  border-bottom: solid 3px white;
 }
 
 .booktext {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   background-color: black;
-  border-top: solid 3px white;
-  border-bottom: solid 3px white;
 }
 
 .booktitle {

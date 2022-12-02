@@ -1,14 +1,14 @@
 import { Parallax } from "react-parallax";
 import Book3 from "../Images/Book3Nava.png";
-import Girl from "../Images/blurGirl.jpg";
+import Nava from "../Images/Nava.webp";
 import "./Books.css";
 
 const BookThree = () => (
   <Parallax
     contentClassName="books"
     blur={0}
-    bgImage={Girl}
-    bgImageAlt="blurred girl walking"
+    bgImage={Nava}
+    bgImageAlt="bones on the ground"
     strength={500}
   >
     <figure>

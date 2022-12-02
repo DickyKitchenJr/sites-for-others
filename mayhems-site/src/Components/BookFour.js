@@ -1,14 +1,14 @@
 import { Parallax } from "react-parallax";
 import Book4 from "../Images/IslemanBook.png";
-import Rubble from "../Images/rubblebackground.jpg";
+import Isleman from "../Images/Isleman.webp";
 import "./Books.css";
 
 const BookFour = () => (
   <Parallax
     contentClassName="books"
     blur={1}
-    bgImage={Rubble}
-    bgImageAlt="a rubble house with a mountain backdrop"
+    bgImage={Isleman}
+    bgImageAlt="mountain backdrop"
     strength={500}
   >
     <figure>

@@ -1,7 +1,6 @@
 import { Parallax } from "react-parallax";
 import Book2 from "../Images/Book2Wanderer.png";
-import Bats from "../Images/bats.jpg";
-import Woods from "../Images/DarkWoods.jpg";
+import Mist from "../Images/MistFigure.webp";
 import "./Books.css";
 
 const BookTwo = () => (
@@ -9,9 +8,10 @@ const BookTwo = () => (
     <Parallax
       contentClassName="books2"
       blur={0}
-      bgImage={Woods}
-      bgImageAlt="a green hued forest"
+      bgImage={Mist}
+      bgImageAlt="a man shrouded in mist"
       strength={600}
+      bgClassName="mist"
     >
       <div className="book-content book2content">
         <p className="book1p on2p">

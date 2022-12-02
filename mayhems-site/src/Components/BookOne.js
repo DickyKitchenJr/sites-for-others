@@ -1,15 +1,14 @@
 import { Parallax } from "react-parallax";
 import Book1 from "../Images/Book1TDC.png";
-import Sunset from "../Images/sunset.jpg";
-import Mist from "../Images/MistFigure.webp";
+import TDC from "../Images/TDCPrimary.webp";
 import "./Books.css";
 
 const BookOne = () => (
   <Parallax
     contentClassName="books1"
     blur={0}
-    bgImage={Mist}
-    bgImageAlt="man shrouded in mist"
+    bgImage={TDC}
+    bgImageAlt="spooky woods at sunset"
     strength={600}
     bgClassName = 'mist'
   >
