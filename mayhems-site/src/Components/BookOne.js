@@ -13,17 +13,6 @@ const BookOne = () => (
     strength={600}
     bgClassName = 'mist'
   >
-    {/* <figure>
-      <img
-        className="bookcover"
-        src={Book1}
-        alt="The Devils Cohort book cover"
-      />
-      <figcaption className="bookreview">
-        "The Devil’s Cohort reads like a George R.R. Martin novel and hooked me
-        right from the start"
-      </figcaption>
-    </figure> */}
     <div className="book-content">
       <p className="book1p">
         "The Devil’s Cohort reads like a George R.R. Martin novel and hooked me
