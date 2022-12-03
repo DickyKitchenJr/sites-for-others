@@ -10,6 +10,7 @@ const BookThree = () => (
     bgImage={Nava}
     bgImageAlt="bones on the ground"
     strength={500}
+    bgClassName="bones"
   >
     <div className="book-content">
       <p className="book1p">"A stunning conclusion to the series!"</p>

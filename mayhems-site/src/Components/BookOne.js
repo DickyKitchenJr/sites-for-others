@@ -10,7 +10,7 @@ const BookOne = () => (
     bgImage={TDC}
     bgImageAlt="spooky woods at sunset"
     strength={600}
-    bgClassName = 'mist'
+    bgClassName="mist"
   >
     <div className="book-content">
       <p className="book1p">
@@ -22,49 +22,50 @@ const BookOne = () => (
         src={Book1}
         alt="The Devils Cohort book cover"
       />
-      </div>
-      <h3 className="booktitle1">
-        The Devil's <span>Cohort</span>
-      </h3>
-      <p className="bookblurb1">
-        <span className="boldme1">
-          Infected with a God-like power and stalked by undead hordes, a child
-          is destined to defeat an otherworldly evil – yet malevolent forces aim
-          to harness her power and unleash an ancient menace from its hellish
-          bonds.
-        </span>
-        <br />
-        <br />
-        Elena is elated to be on the cusp of a festival marking her journey into
-        womanhood, but that happiness is tainted by a powerful secret she
-        keeps…a secret that is bound to a timeless and dark prophesy. Charles,
-        the half-human son of vampire Cosmin the Wicked, reels from centuries of
-        damnation. Condemned to live forever, he is determined to destroy his
-        father and lift the curse that afflicts his soul.
-        <br />
-        <br />
-        Together, the unlikely pair must fight to right an ancient wrong and
-        protect humanity from a primeval horror, one that is older than
-        civilization itself and hungers to conquer Earth. Can they triumph over
-        an ancient evil and save millions of lives...or will The Devil’s Cohort
-        be unleashed?
-        <br />
-        <br />
-        <span className="boldme1">
-          Get The Devil’s Cohort and immerse yourself in the timeless struggle
-          of good versus evil with a modern and riveting twist.
-        </span>
-        <br />
-        <br />
-        <a
-          href="https://www.amazon.com/gp/product/B08XPQ76DM/ref=dbs_a_def_rwt_bibl_vppi_i0"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <button className="buybutton">Buy on Amazon</button>
-        </a>
-      </p>
-    
+    </div>
+    <h3 className="booktitle1">
+      The Devil's <span>Cohort</span>
+    </h3>
+    <p className="bookblurb1">
+      <span className="boldme1">
+        Infected with a God-like power and stalked by undead hordes, a child is
+        destined to defeat an otherworldly evil – yet malevolent forces aim to
+        harness her power and unleash an ancient menace from its hellish bonds.
+      </span>
+      <br />
+      <br />
+      Elena is elated to be on the cusp of a festival marking her journey into
+      womanhood, but that happiness is tainted by a powerful secret she keeps…a
+      secret that is bound to a timeless and dark prophesy. Charles, the
+      half-human son of vampire Cosmin the Wicked, reels from centuries of
+      damnation. Condemned to live forever, he is determined to destroy his
+      father and lift the curse that afflicts his soul.
+      <br />
+      <br />
+      Together, the unlikely pair must fight to right an ancient wrong and
+      protect humanity from a primeval horror, one that is older than
+      civilization itself and hungers to conquer Earth. Can they triumph over an
+      ancient evil and save millions of lives...or will The Devil’s Cohort be
+      unleashed?
+      <br />
+      <br />
+      <span className="boldme1">
+        Get The Devil’s Cohort and immerse yourself in the timeless struggle of
+        good versus evil with a modern and riveting twist.
+      </span>
+      <br />
+      <br />
+      <a
+        // href="https://www.amazon.com/gp/product/B08XPQ76DM/ref=dbs_a_def_rwt_bibl_vppi_i0"
+        href="#button1"
+        // target="_blank"
+        // rel="noreferrer"
+      >
+        <button id="button1" className="buybutton">
+          Buy on Amazon
+        </button>
+      </a>
+    </p>
   </Parallax>
 );
 

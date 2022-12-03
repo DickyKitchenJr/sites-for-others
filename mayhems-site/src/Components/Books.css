@@ -147,6 +147,19 @@
   border-radius: 1rem;
 }
 
+#button1:active{
+  color: red;
+  font-weight: 100;
+  text-shadow: red 1px 1px 5px;
+  box-shadow: 0 0 5px 4px whitesmoke;
+}
+
+#button2:active{
+  background-image: linear-gradient(to bottom, hsl(0, 54%, 30%), hsl(0, 2%, 35%), hsl(0, 54%, 30%));
+  box-shadow: 0 0 5px 4px whitesmoke;
+  border: 2px solid black;
+}
+
 @media only screen and (max-width: 900px) {
   .buybutton{
     font-size: 125%;
@@ -223,4 +236,16 @@
   .mist{
     left: 240% !important;
   }
+}
+
+/* Adjustments to have skull element show better in book 3 background */
+
+.bones{
+  bottom: -17%;
+}
+
+/* Adjustments to have mountains show better in book 4 background */
+
+.mountains{
+  bottom: 20%;
 }

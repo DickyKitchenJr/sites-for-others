@@ -10,6 +10,7 @@ const BookFour = () => (
     bgImage={Isleman}
     bgImageAlt="mountain backdrop"
     strength={500}
+    bgClassName="mountains"
   >
     <div className="book-content">
       <p className="book1p">
