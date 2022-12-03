@@ -147,14 +147,7 @@
   border-radius: 1rem;
 }
 
-#button1:active{
-  color: red;
-  font-weight: 100;
-  text-shadow: red 1px 1px 5px;
-  box-shadow: 0 0 5px 4px whitesmoke;
-}
-
-#button2:active{
+.buybutton:active{
   background-image: linear-gradient(to bottom, hsl(0, 54%, 30%), hsl(0, 2%, 35%), hsl(0, 54%, 30%));
   box-shadow: 0 0 5px 4px whitesmoke;
   border: 2px solid black;

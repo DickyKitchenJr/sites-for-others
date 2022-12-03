@@ -61,12 +61,11 @@ const BookTwo = () => (
     </p>
     <div className="button2">
       <a
-        // href="https://www.amazon.com/gp/product/B09KFX5MRJ?ref_=dbs_p_pwh_rwt_anx_cl_1&storeType=ebooks"
-        href="#button2"
-        // target="_blank"
-        // rel="noreferrer"
+        href="https://www.amazon.com/gp/product/B09KFX5MRJ?ref_=dbs_p_pwh_rwt_anx_cl_1&storeType=ebooks"
+        target="_blank"
+        rel="noreferrer"
       >
-        <button id="button2" className="buybutton">
+        <button className="buybutton">
           Buy on Amazon
         </button>
       </a>
