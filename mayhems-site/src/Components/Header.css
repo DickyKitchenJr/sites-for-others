@@ -1,3 +1,21 @@
+@font-face {
+  font-family: "Glitch";
+  src: url(../Fonts/Eordeoghlakat.otf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ChangaOne";
+  src: url(../Fonts/ChangaOne-Regular.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Subrayada";
+  src: url(../Fonts/MontserratSubrayada-Bold.ttf);
+  font-display: swap;
+}
+
 .hero {
   text-align: center;
   font-size: 7.5vw;
@@ -10,4 +28,18 @@
 
 .hero span {
   color: red;
+}
+
+.one{
+  font-family: "Glitch";
+}
+
+.uno{
+  font-family: "ChangaOne";
+  font-size: 8.55vw;
+}
+
+.dos{
+  font-family: "Subrayada";
+  font-size: 8.15vw;
 }
