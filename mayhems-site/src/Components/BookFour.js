@@ -5,7 +5,7 @@ import "./Books.css";
 
 const BookFour = () => (
   <Parallax
-    contentClassName="books1"
+    contentClassName="books"
     blur={1}
     bgImage={Isleman}
     bgImageAlt="mountain backdrop"
@@ -13,13 +13,13 @@ const BookFour = () => (
     bgClassName="mountains"
   >
     <div className="book-content">
-      <p className="book1p">
+      <p className="bookp">
         "Fresh and gripping...a Scotland you haven't experienced before..."
       </p>
-      <img className="bookcover1" src={Book4} alt="Isleman book cover" />
+      <img className="bookcover" src={Book4} alt="Isleman book cover" />
     </div>
-    <h3 className="booktitle1">Isleman: A Novel of Scotland</h3>
-    <p className="bookblurb1">
+    <h3 className="booktitle">Isleman: A Novel of Scotland</h3>
+    <p className="bookblurb">
       The King of Scots is dead and restless clans have risen, their thirst for
       power and vengeance threatening to ignite an inferno that will consume the
       Kingdom of Scotland. Thomas Skene, banished to the wilds of Scotland, grew

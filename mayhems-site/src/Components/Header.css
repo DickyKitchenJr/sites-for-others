@@ -31,7 +31,7 @@
 }
 
 @media only screen and (min-width: 600px) {
-  .hero span{
-    letter-spacing: -.2rem;
+  .hero span {
+    letter-spacing: -0.2rem;
   }
 }

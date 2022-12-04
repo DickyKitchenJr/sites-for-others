@@ -5,7 +5,7 @@ import "./Books.css";
 
 const BookTwo = () => (
   <Parallax
-    contentClassName="books1"
+    contentClassName="books"
     blur={0}
     bgImage={Mist}
     bgImageAlt="a man shrouded in mist"
@@ -13,21 +13,21 @@ const BookTwo = () => (
     bgClassName="mist"
   >
     <div className="book-content">
-      <p className="book1p">
+      <p className="bookp">
         "A Wanderer Among the Dead picks up right where The Devil's Cohort left
         off. I absolutely loved this book!"
       </p>
       <img
-        className="bookcover1"
+        className="bookcover"
         src={Book2}
         alt="A Wanderer Among The Dead book cover"
       />
     </div>
-    <h3 className="booktitle1">
+    <h3 className="booktitle">
       A Wanderer <span>Among The Dead</span>
     </h3>
-    <p className="bookblurb1">
-      <span className="boldme1">
+    <p className="bookblurb">
+      <span className="boldme">
         Cosmin has been destroyed, but after Elena’s seemingly impossible
         victory, an even greater evil has been unleashed…
       </span>
@@ -52,22 +52,20 @@ const BookTwo = () => (
       stay dead…
       <br />
       <br />
-      <span className="boldme1">
+      <span className="boldme">
         Get A Wanderer Among the Dead and be transported to a world rich with
         adventure and teeming with ghouls, demons, and unlikely heroes.
       </span>
       <br />
       <br />
     </p>
-    <div className="button2">
-      <a
-        href="https://www.amazon.com/gp/product/B09KFX5MRJ?ref_=dbs_p_pwh_rwt_anx_cl_1&storeType=ebooks"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <button className="buybutton">Buy on Amazon</button>
-      </a>
-    </div>
+    <a
+      href="https://www.amazon.com/gp/product/B09KFX5MRJ?ref_=dbs_p_pwh_rwt_anx_cl_1&storeType=ebooks"
+      target="_blank"
+      rel="noreferrer"
+    >
+      <button className="buybutton">Buy on Amazon</button>
+    </a>
   </Parallax>
 );
 

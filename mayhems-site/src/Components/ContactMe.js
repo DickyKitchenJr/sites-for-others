@@ -36,7 +36,9 @@ const ContactMe = () => (
           required
         />
         <input className="honey" type="text" name="_honey" />
-        <button className="requestButton" type="submit">Send</button>
+        <button className="requestButton" type="submit">
+          Send
+        </button>
       </form>
     </div>
   </Parallax>

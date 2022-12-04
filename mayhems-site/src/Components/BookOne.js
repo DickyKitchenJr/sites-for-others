@@ -5,7 +5,7 @@ import "./Books.css";
 
 const BookOne = () => (
   <Parallax
-    contentClassName="books1"
+    contentClassName="books"
     blur={0}
     bgImage={TDC}
     bgImageAlt="fullmoon"
@@ -13,21 +13,21 @@ const BookOne = () => (
     bgClassName="fullmoon"
   >
     <div className="book-content">
-      <p className="book1p">
+      <p className="bookp">
         "The Devil’s Cohort reads like a George R.R. Martin novel and hooked me
         right from the start"
       </p>
       <img
-        className="bookcover1"
+        className="bookcover"
         src={Book1}
         alt="The Devils Cohort book cover"
       />
     </div>
-    <h3 className="booktitle1">
+    <h3 className="booktitle">
       The Devil's <span>Cohort</span>
     </h3>
-    <p className="bookblurb1">
-      <span className="boldme1">
+    <p className="bookblurb">
+      <span className="boldme">
         Infected with a God-like power and stalked by undead hordes, a child is
         destined to defeat an otherworldly evil – yet malevolent forces aim to
         harness her power and unleash an ancient menace from its hellish bonds.
@@ -49,7 +49,7 @@ const BookOne = () => (
       unleashed?
       <br />
       <br />
-      <span className="boldme1">
+      <span className="boldme">
         Get The Devil’s Cohort and immerse yourself in the timeless struggle of
         good versus evil with a modern and riveting twist.
       </span>
@@ -60,9 +60,7 @@ const BookOne = () => (
         target="_blank"
         rel="noreferrer"
       >
-        <button className="buybutton">
-          Buy on Amazon
-        </button>
+        <button className="buybutton">Buy on Amazon</button>
       </a>
     </p>
   </Parallax>

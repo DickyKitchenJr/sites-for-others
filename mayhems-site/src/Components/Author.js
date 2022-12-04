@@ -29,8 +29,10 @@ const Author = () => (
         almost a decade, they decided to enjoy the hellish heat of Phoenix
         before finally settling near Nashville, Tennessee. Stephen's most
         enjoyable hobbies are also those that are decidedly antisocial, such as
-        hiking and fishing. <br/><br/>Thankfully, being an author isn't a team sport, so
-        now you can enjoy his unique brand of dark humor and gory adventure.
+        hiking and fishing. <br />
+        <br />
+        Thankfully, being an author isn't a team sport, so now you can enjoy his
+        unique brand of dark humor and gory adventure.
       </figcaption>
     </figure>
   </Parallax>

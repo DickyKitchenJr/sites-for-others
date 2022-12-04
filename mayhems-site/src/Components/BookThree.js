@@ -5,7 +5,7 @@ import "./Books.css";
 
 const BookThree = () => (
   <Parallax
-    contentClassName="books1"
+    contentClassName="books"
     blur={0}
     bgImage={Nava}
     bgImageAlt="bones on the ground"
@@ -13,16 +13,16 @@ const BookThree = () => (
     bgClassName="bones"
   >
     <div className="book-content">
-      <p className="book1p">
+      <p className="bookp">
         "A stunning conclusion to the Vampire's Vault series!"
       </p>
-      <img className="bookcover1" src={Book3} alt="Nava book cover" />
+      <img className="bookcover" src={Book3} alt="Nava book cover" />
     </div>
-    <h3 className="booktitle1">
+    <h3 className="booktitle">
       Na<span>vă</span>
     </h3>
-    <p className="bookblurb1">
-      <span className="boldme1">
+    <p className="bookblurb">
+      <span className="boldme">
         Malthus has returned, and the demon is determined to shred the Widow’s
         Veil that separates Earth and Hell. Only Elena stands in his way…though
         she has another desperate battle to fight.
@@ -44,14 +44,14 @@ const BookThree = () => (
       from the dead…
       <br />
       <br />
-      <span className="boldme1">
+      <span className="boldme">
         Get the explosive finale to the Vampire's Vault series and experience
         the agony, triumphs, and diabolical twists that only Stephen Mills can
         dream up.
       </span>
       <br />
       <br />
-      <span className="boldme1">Coming Soon!</span>
+      <span className="boldme">Coming Soon!</span>
     </p>
   </Parallax>
 );
