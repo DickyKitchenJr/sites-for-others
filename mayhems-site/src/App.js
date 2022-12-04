@@ -25,15 +25,14 @@ function App() {
       <ContactMe />
       <div className="booktext">
         <h3 className="booktitle">
-          From <span>The</span> Author
+          From the <span>Author</span> 
         </h3>
         <p className="authorblurb">
-          If you enjoy ghoulish worlds teeming dark humor, and flawed heroes
-          destined to battle against impossible odds, you’ll love the
-          enthralling and bloody works of Stephen Mills.
+          If you enjoy dark humor, ghoulish adventure, and flawed heroes, you
+          will love the enthralling and bloody works of Stephen Mills
         </p>
         <p className="authorblurb">
-          Follow the author on{" "}
+          For all news, follow the author's social media on{" "}
           <a
             href="https://www.instagram.com/Stephen.mills.writes/"
             target="_blank"

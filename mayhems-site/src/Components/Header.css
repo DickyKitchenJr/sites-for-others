@@ -12,18 +12,21 @@
 
 .hero {
   text-align: center;
-  font-size: 7.5vw;
+  font-size: 10.5vw;
   font-family: "Glitch", Arial, Helvetica, sans-serif;
   font-weight: 100;
   color: white;
   background-color: black;
-  padding: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .hero span {
   color: red;
   font-family: "Impact";
-  font-size: 7vw;
+  font-size: 9.7vw;
   font-weight: bold;
   letter-spacing: -.2rem;
 }

@@ -14,27 +14,24 @@ const BookFour = () => (
   >
     <div className="book-content">
       <p className="book1p">
-        "A fresh and gripping piece of historical fiction!"
+        "Fresh and gripping...a Scotland you haven't experienced before..."
       </p>
       <img className="bookcover1" src={Book4} alt="Isleman book cover" />
     </div>
     <h3 className="booktitle1">Isleman: A Novel of Scotland</h3>
     <p className="bookblurb1">
-      The King of Scots is dead, and the restless clans of the Isles have risen,
-      their thirst for power and vengeance threatening to ignite an inferno that
-      would consume the Kingdom of Scotland.
-      <br />
-      <br />
-      Thomas Skene, banished to the wilds of western Scotland, grew up without
-      family nor home. Now his only friend has been called home to the Isle of
-      Skye with Thomas in tow, and the secret he carries did not stay a secret
-      for long.
+      The King of Scots is dead and restless clans have risen, their thirst for
+      power and vengeance threatening to ignite an inferno that will consume the
+      Kingdom of Scotland. Thomas Skene, banished to the wilds of Scotland, grew
+      up without family nor home. Now his only friend has been summoned back to
+      the Isle of Skye with Thomas in tow, but the secret he carries will not
+      stay a secret for long.
       <br />
       <br />
       Pursued by enemies, hunted by assassins, and caught up in the cunning game
       of an empty throne, Nial and Thomas are forced to navigate the bloody
-      waters of clans and politics before the kingdom itself explodes into
-      warfare and rebellion.
+      waters of clan politics before the kingdom itself explodes into warfare
+      and rebellion.
       <br />
       <br />
       Get Isleman and find yourself transported to the perilous and intoxicating

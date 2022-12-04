@@ -9,6 +9,7 @@ const ContactMe = () => (
     bgImage={Family}
     bgImageAlt="author and spouse"
     strength={500}
+    bgClassName="contactPic"
   >
     <div className="requestsignedcopy">
       <h4 className="formh4">Purchase a signed copy!</h4>

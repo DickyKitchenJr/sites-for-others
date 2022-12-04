@@ -13,7 +13,9 @@ const BookThree = () => (
     bgClassName="bones"
   >
     <div className="book-content">
-      <p className="book1p">"A stunning conclusion to the series!"</p>
+      <p className="book1p">
+        "A stunning conclusion to the Vampire's Vault series!"
+      </p>
       <img className="bookcover1" src={Book3} alt="Nava book cover" />
     </div>
     <h3 className="booktitle1">
@@ -43,15 +45,13 @@ const BookThree = () => (
       <br />
       <br />
       <span className="boldme1">
-        Get the explosive finale to the Vampire’s Vault series and immerse
-        yourself in the timeless struggle of good versus evil…with a modern and
-        riveting twist.
+        Get the explosive finale to the Vampire's Vault series and experience
+        the agony, triumphs, and diabolical twists that only Stephen Mills can
+        dream up.
       </span>
       <br />
       <br />
-      <span className="boldme1">
-        Coming Soon!
-      </span>
+      <span className="boldme1">Coming Soon!</span>
     </p>
   </Parallax>
 );

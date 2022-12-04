@@ -53,8 +53,8 @@ const BookTwo = () => (
       <br />
       <br />
       <span className="boldme1">
-        Get A Wanderer Among the Dead and immerse yourself in the timeless
-        struggle of good versus evil…with a modern and riveting twist.
+        Get A Wanderer Among the Dead and be transported to a world rich with
+        adventure and teeming with ghouls, demons, and unlikely heroes.
       </span>
       <br />
       <br />
@@ -65,9 +65,7 @@ const BookTwo = () => (
         target="_blank"
         rel="noreferrer"
       >
-        <button className="buybutton">
-          Buy on Amazon
-        </button>
+        <button className="buybutton">Buy on Amazon</button>
       </a>
     </div>
   </Parallax>
