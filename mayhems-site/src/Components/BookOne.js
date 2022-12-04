@@ -1,6 +1,6 @@
 import { Parallax } from "react-parallax";
 import Book1 from "../Images/Book1TDC.png";
-import TDC from "../Images/TDCPrimary.webp";
+import TDC from "../Images/fullmoon.webp";
 import "./Books.css";
 
 const BookOne = () => (
@@ -8,9 +8,9 @@ const BookOne = () => (
     contentClassName="books1"
     blur={0}
     bgImage={TDC}
-    bgImageAlt="spooky woods at sunset"
+    bgImageAlt="fullmoon"
     strength={600}
-    bgClassName="building"
+    bgClassName="fullmoon"
   >
     <div className="book-content">
       <p className="book1p">
