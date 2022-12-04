@@ -1,5 +1,7 @@
 {
   "name": "mayhems-site",
+  "homepage": "https://mayhemmills.com/",
+  "description": "Discover the horror packed and adventurous novels from Dark Fantasy and Historical Fiction author and novelist Stephen Mills. Devilish humor and gory plot twist await in every book.",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
