@@ -171,6 +171,12 @@
   font-weight: bold;
 }
 
+/* Adjustments to show more of the building with background image of Book 1 */
+
+.building{
+  height: 90% !important;
+}
+
 /* Adjustments to keep figure centered with screen size changes for image in Book 2 */
 .mist{
   bottom: -10%;

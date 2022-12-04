@@ -21,7 +21,7 @@ const Author = () => (
         A soggy native of Washington State, Stephen Mills escaped as soon as he
         came to his senses by joining the U.S. Navy. Many adventures ensued,
         some of which Stephen remembers fondly, and after tricking an amazing
-        woman into marrying him he left the naval service. An undiagnosed yet
+        woman into marrying him he left the Naval Service. An undiagnosed yet
         temporary bout of mild insanity ensued in which Stephen convinced his
         wife to move back home to Washington. Realizing their mistake, they then
         found themselves in the small burg of Monument, Colorado...unfortunately

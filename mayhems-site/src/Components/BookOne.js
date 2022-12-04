@@ -10,7 +10,7 @@ const BookOne = () => (
     bgImage={TDC}
     bgImageAlt="spooky woods at sunset"
     strength={600}
-    bgClassName="mist"
+    bgClassName="building"
   >
     <div className="book-content">
       <p className="book1p">

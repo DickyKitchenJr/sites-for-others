@@ -28,5 +28,10 @@
   font-family: "Impact";
   font-size: 9.7vw;
   font-weight: bold;
-  letter-spacing: -.2rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .hero span{
+    letter-spacing: -.2rem;
+  }
 }
