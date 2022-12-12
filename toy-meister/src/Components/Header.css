@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Rammetto";
+    src: url(../Fonts/RammettoOne-Regular.ttf);
+    font-display: swap;
+}
+
+.header{
+    position: relative;
+    text-align: center;
+    padding: 2rem;
+}
+
+.logo{
+    max-width: 60vw;
+}
+
+h1{
+    font-family: "Rammetto", Georgia, 'Times New Roman', Times, serif;
+    font-size: 8vw;
+    color: mediumblue;
+    text-shadow: 5px 2px hsl(60, 100%, 45%);
+    position: absolute;
+    bottom: 5%;
+    left: 19%;
+}
