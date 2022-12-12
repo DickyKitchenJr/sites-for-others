@@ -8,3 +8,9 @@ h2{
 .storefront{
     max-width: 100%;
 }
+
+.aboutWriteUp{
+    background-color: hsl(208, 93%, 94%);
+    padding: 1rem;
+    text-align: center;
+}
