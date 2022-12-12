@@ -1,0 +1,8 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(0, 2%, 8%);
+    color: hsl(0, 22%, 93%);
+    padding: 1rem;
+    font-size: larger;
+}
