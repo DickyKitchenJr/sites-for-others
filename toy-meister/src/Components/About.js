@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import Store from "../Images/storefront.jpg";
+import Store from "../Images/storefront.webp";
 
 function About() {
   return (
