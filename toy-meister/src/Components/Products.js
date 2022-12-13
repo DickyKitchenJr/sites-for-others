@@ -27,7 +27,7 @@ function Products() {
         <h2>Thousands Of Toys To Choose From!</h2>
       </div>
       <div className="products">
-        <button onClick={onLeftClick}>&#171;</button>
+        <button className="product-button" onClick={onLeftClick}>&#171;</button>
 
         {ProductPics.map((pics) => {
           return (
@@ -43,7 +43,7 @@ function Products() {
           );
         })}
 
-        <button onClick={onRightClick}>&#187;</button>
+        <button className="product-button" onClick={onRightClick}>&#187;</button>
       </div>
     </>
   );
