@@ -14,7 +14,7 @@ function Nav() {
         <p>
           <a href="#location">Location</a>
         </p>
-        <p>Contact</p>
+        <p><a href="#contact">Contact</a></p>
       </nav>
     </>
   );

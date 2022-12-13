@@ -1,0 +1,46 @@
+.contact{
+    background-color: hsl(208, 93%, 94%);
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.contact-box{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+
+h3{
+    background-color: hsl(60, 85%, 87%);
+    border-bottom: 1px solid black;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-input{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: .3rem;
+    padding-right: .3rem;
+    margin-top: .7rem;
+    margin-bottom: .7rem;
+    margin-left: .4rem;
+    margin-right: .4rem;
+}
+
+.honey{
+    display: none;
+}
+
+.contact-button{
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: .7rem;
+    padding: .5rem;
+}
