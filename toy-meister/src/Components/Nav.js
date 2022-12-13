@@ -6,8 +6,8 @@ function Nav() {
     <>
       <nav>
         <p>About</p>
-        <p>Location</p>
         <p>Products</p>
+        <p>Location</p>
         <p>Contact</p>
       </nav>
     </>
