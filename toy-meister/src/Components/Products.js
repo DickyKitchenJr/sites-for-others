@@ -24,10 +24,12 @@ function Products() {
   return (
     <>
       <div>
-        <h2>Thousands Of Toys To Choose From!</h2>
+        <h2 id="products">Thousands Of Toys To Choose From!</h2>
       </div>
       <div className="products">
-        <button className="product-button" onClick={onLeftClick}>&#171;</button>
+        <button className="product-button" onClick={onLeftClick}>
+          &#171;
+        </button>
 
         {ProductPics.map((pics) => {
           return (
@@ -36,14 +38,17 @@ function Products() {
               src={pics.image}
               alt="product"
               key={ProductPics.indexOf(pics)}
-              style ={{
-                display: picCount !== ProductPics.indexOf(pics) ? 'none' : 'block'
+              style={{
+                display:
+                  picCount !== ProductPics.indexOf(pics) ? "none" : "block",
               }}
             />
           );
         })}
 
-        <button className="product-button" onClick={onRightClick}>&#187;</button>
+        <button className="product-button" onClick={onRightClick}>
+          &#187;
+        </button>
       </div>
     </>
   );

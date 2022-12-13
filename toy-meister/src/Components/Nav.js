@@ -6,7 +6,7 @@ function Nav() {
     <>
       <nav>
         <p><a href="#about">About</a></p>
-        <p>Products</p>
+        <p><a href="#products">Products</a></p>
         <p>Location</p>
         <p>Contact</p>
       </nav>
