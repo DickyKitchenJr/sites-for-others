@@ -20,7 +20,7 @@ function About() {
         Established in 19XX, Toymeister set itself apart in the toy industry by
         providing toys ranging from antique to modern.
         <br /><br/>
-        The 15000 square foot facility is packed to the brim with row after row
+        The 15,000 square foot facility is packed to the brim with row after row
         of all the biggest names of yesteryear and today.
         <br /><br/>
         Whether you are looking for a vintage action figure to complete your
