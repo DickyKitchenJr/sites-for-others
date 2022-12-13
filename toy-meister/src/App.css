@@ -1,0 +1,6 @@
+.image-center{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(208, 93%, 94%);
+    padding-top: 1rem;
+}

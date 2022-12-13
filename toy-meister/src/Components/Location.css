@@ -1,6 +1,23 @@
-h2{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    padding: 1rem;
-    background-color: hsl(60, 85%, 87%);
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 1rem;
+  background-color: hsl(60, 85%, 87%);
+}
+
+.map {
+  max-width: 40%;
+}
+
+.location {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: hsl(208, 93%, 94%);
+}
+
+.location-p {
+  font-weight: bold;
 }
