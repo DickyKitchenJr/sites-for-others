@@ -19,4 +19,65 @@ import StarTrek2 from "../Images/startrek2.webp";
 import Transfromers from '../Images/transformers.webp';
 import Transfromers2 from "../Images/transformers2.webp";
 
-export const ProductPics = []
+export const ProductPics = [
+    {
+        image: ArtPrints,
+    }, 
+    {
+        image: Barbie,
+    },
+    {
+        image:Batman,
+    },
+    {
+        image: Cars,
+    },
+    {
+        image: ComicBooks,
+    },
+    {
+        image: Funko,
+    },
+    {
+        image: GI1,
+    },
+    {
+        image:GI2,
+    },
+    {
+        image:GI3,
+    },
+    {
+        image: HotWheels,
+    },
+    {
+        image: LegoFig,
+    },
+    {
+        image: LegoSet,
+    },
+    {
+        image: Legos,
+    },
+    {
+        image: LooneyToons,
+    },
+    {
+        image: Marvel,
+    },
+    {
+        image: MarvelDisplay,
+    },
+    {
+        image: StarTrek,
+    },
+    {
+        image: StarTrek2,
+    },
+    {
+        image: Transfromers,
+    },
+    {
+        image: Transfromers2,
+    },
+]
