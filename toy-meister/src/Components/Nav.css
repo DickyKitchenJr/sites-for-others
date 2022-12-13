@@ -6,3 +6,8 @@ nav{
     padding: 1rem;
     font-size: larger;
 }
+
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+}

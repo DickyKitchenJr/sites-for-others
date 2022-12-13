@@ -13,7 +13,7 @@ function About() {
         <img className="storefront" src={Store} alt="store front" />
       </div>
       
-      <p className="aboutWriteUp">
+      <p id="about" className="aboutWriteUp">
         Located on the second floor of Virginia Beach's Antique Mall, Toymeister
         houses the largest toy selection on the East Coast.
         <br /><br/>

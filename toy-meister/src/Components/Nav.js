@@ -5,7 +5,7 @@ function Nav() {
   return (
     <>
       <nav>
-        <p>About</p>
+        <p><a href="#about">About</a></p>
         <p>Products</p>
         <p>Location</p>
         <p>Contact</p>
