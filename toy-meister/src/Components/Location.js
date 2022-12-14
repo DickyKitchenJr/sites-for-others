@@ -19,6 +19,13 @@ function Location() {
           Virginia Beach, VA 23452
           <br />
           <br />
+          Mon-Thurs 10AM - 6PM EST
+          <br />
+          Fri-Sat 10AM - 8PM EST
+          <br />
+          Sun Noon - 8PM EST
+          <br />
+          <br />
           <a href="tel:+17573903244">(757) 390-3244</a>
         </address>
       </div>
