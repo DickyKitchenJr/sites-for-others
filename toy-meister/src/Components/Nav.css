@@ -11,3 +11,8 @@ nav a{
     color: whitesmoke;
     text-decoration: none;
 }
+
+nav p{
+    padding-left: .25rem;
+    padding-right: .25rem;
+}
