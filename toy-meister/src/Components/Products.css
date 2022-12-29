@@ -10,6 +10,12 @@
     max-width: 50%;
 }
 
+@media only screen and (min-width: 1000px) {
+    .product-pic{
+        max-width: 40%;
+    }
+}
+
 .product-button{
     font-size: 2rem;
     font-weight: bolder;
