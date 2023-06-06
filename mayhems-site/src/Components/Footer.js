@@ -30,6 +30,18 @@ function Footer() {
             Facebook
           </a>
         </p>
+        <p className="authorblurb">
+          If you enjoy reading indie books, check out{" "}
+          <a
+            className="copyrightA"
+            href="https://indiebookvault.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Indie Book Vault
+          </a>{" "}
+          to find other great authors like Stephen Mills
+        </p>
       </div>
     </>
   );
