@@ -51,7 +51,9 @@ const BookThree = () => (
       </span>
       <br />
       <br />
-      <span className="boldme">Coming Soon!</span>
+      <a href="https://a.co/d/7K4PraN" target="_blank" rel="noreferrer">
+        <button className="buybutton">Buy on Amazon</button>
+      </a>
     </p>
   </Parallax>
 );

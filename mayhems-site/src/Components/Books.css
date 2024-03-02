@@ -143,6 +143,7 @@
   background-color: transparent;
   border: 4px solid red;
   border-radius: 1rem;
+  cursor: pointer;
 }
 
 .buybutton:active {
