@@ -5,7 +5,7 @@ function Header() {
   return (
     <>
       <h1 className="hero one">
-        MAYHEM<span className="uno">MILLS</span>
+        MAYHEM<span>MILLS</span>
       </h1>
     </>
   );
